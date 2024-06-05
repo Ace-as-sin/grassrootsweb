@@ -1,0 +1,14 @@
+@import "../../styles/variables.scss";
+
+
+
+  .hiding-box { 
+    position: absolute;
+    width: 200vw;
+    height: 100vw;
+    rotate: -10deg;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: $background-color;
+  }
